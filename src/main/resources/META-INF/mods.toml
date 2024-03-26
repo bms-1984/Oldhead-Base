@@ -1,5 +1,5 @@
 
-modLoader="javafml"
+modLoader="kotlinforforge"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
 issueTrackerURL="https://github.com/bms-1984/Oldhead-Base/issues"
