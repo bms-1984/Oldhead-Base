@@ -1,0 +1,9 @@
+{
+  "block.triad.tin_ore": "Tin Ore",
+  "block.triad.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.triad.raw_tin_block": "Block of Raw Tin",
+  "block.triad.tin_block": "Block of Tin",
+  "item.triad.raw_tin": "Raw Tin",
+  "item.triad.tin_ingot": "Tin Ingot",
+  "itemGroup.triad": "Triad"
+}

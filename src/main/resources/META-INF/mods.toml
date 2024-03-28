@@ -2,13 +2,13 @@
 modLoader="kotlinforforge"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-issueTrackerURL="https://github.com/bms-1984/Oldhead-Base/issues"
+issueTrackerURL="https://github.com/bms-1984/Triad/issues"
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-updateJSONURL="https://github.com/bms-1984/Oldhead-Base/raw/main/update.json"
-displayURL="https://github.com/bms-1984/Oldhead-Base"
+updateJSONURL="https://github.com/bms-1984/Triad/raw/main/update.json"
+displayURL="https://github.com/bms-1984/Triad"
 authors="${mod_authors}"
 description='''${mod_description}'''
 [[dependencies.${mod_id}]]
@@ -21,5 +21,11 @@ description='''${mod_description}'''
     modId="minecraft"
     type="required"
     versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="kotlinforforge"
+    type="required"
+    versionRange="${kotlinforforge_version_range}"
     ordering="NONE"
     side="BOTH"
